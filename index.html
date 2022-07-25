@@ -13,13 +13,10 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&family=Open+Sans&family=Oswald&family=PT+Sans&family=Parisienne&family=Playfair+Display&family=Quattrocento&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
 
     <script>
-        document.body.classList.add('js-loading');
-
-        window.addEventListener("load", showPage, false);
-
-        function showPage() {
-            document.body.classList.remove('js-loading');
+        function startAnimation() { 
+        document.querySelector('.element').style.animationPlayState = 'running';
         }
+        window.addEventListener('load', startAnimation);
     </script>
 
 </head>
