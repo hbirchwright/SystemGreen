@@ -1,0 +1,22 @@
+.summary-wrapper {
+    display: flex;
+    background-color: white;
+    height: 400px;
+    width: 100%;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 10px 30px -10px inset;
+    padding-top: 25px;
+    font-family: 'Montserrat', sans-serif;
+    animation: fadeIn 1s forwards;
+    animation-delay: 1s;
+    opacity: 0;
+}
+
+.summary-wrapper > .sum-head {
+    width: 600px;
+    padding-left: 70px;
+    font-size: 1.1em;
+}
+
+.summary-wrapper > .sum-text {
+    width: 550px;
+}

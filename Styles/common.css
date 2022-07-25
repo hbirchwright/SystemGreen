@@ -1,0 +1,27 @@
+html {
+    scroll-behavior: smooth;
+}
+
+html {
+    display: block;
+}
+
+.html, body {
+    height: 100%;
+    margin: 0px;
+}
+
+h1 {
+    font-size: 2em;
+    padding-left: 7px;
+}
+
+
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Parisienne', cursive;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+font-family: 'Quattrocento', serif;
+font-family: 'Ubuntu Condensed', sans-serif; */

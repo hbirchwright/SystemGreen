@@ -1,0 +1,104 @@
+/* Main Syle */
+
+.navigation-wrapper {
+    height: 580px;
+    width: 100%;
+    color: #fcfcfc;
+    background-image: url(file:///Users/hbirchwright/Documents/html-css/System%20Green/Images/ForestBG6.jpeg);
+    font-family: "PT Sans", sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 10px 30px -10px inset;
+    background-color: #576c3f;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navigation-wrapper > .drophead {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+/* Link Transition */
+
+.navigation-wrapper > .drophead > .navbar a{
+    position: relative;
+    color: #fcfcfc;
+    text-decoration: none;
+  }
+  
+.navigation-wrapper > .drophead > .navbar a:hover {
+    color: #fcfcfc;
+  }
+  
+.navigation-wrapper > .drophead > .navbar a::before {
+    content: "";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fcfcfc;
+    transform: scaleX(0);
+    transition: transform 0.4s ease;
+  }
+  
+.navigation-wrapper > .drophead > .navbar a:hover::before {
+    transform: scaleX(1);
+  }
+
+/* Logo Sytles */
+
+.navigation-wrapper > .drophead > .logo {
+    margin-left: 20px;
+    display: flex;
+    font-family: "Playfair Display", serif;
+}
+
+.navigation-wrapper > .drophead > .logo img {
+    height: 100px;
+    width: 100px;
+}
+
+/* NavBar Styles */
+
+.navigation-wrapper > .drophead > .navbar {
+    color: #fcfcfc;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding-right: 65px;
+    padding-top: 35px;
+}
+
+/* Dropdown Bar */
+@keyframes slideInFromTop {
+    0% {
+      transform: translateY(-100%);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
+.drophead {  
+    animation: 1s ease-out .8s 1 slideInFromTop backwards;
+}
+
+/* Head Text */
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.navigation-wrapper > .head-text {
+  width: 700px;
+  position: absolute;
+  bottom: 150px;
+  left: 100px;
+  font-size: 1.7em;
+  display: flex;
+  font-family: 'Montserrat', sans-serif;
+  animation: fadeIn 1s forwards;
+  animation-delay: 1s;
+  opacity: 0;
+}
