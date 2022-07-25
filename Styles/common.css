@@ -16,6 +16,11 @@ h1 {
     padding-left: 7px;
 }
 
+.js-loading *,
+.js-loading *:before,
+.js-loading *:after {
+  animation-play-state: paused !important;
+}
 
 /* font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans', sans-serif;
