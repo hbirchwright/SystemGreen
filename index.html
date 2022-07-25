@@ -3,10 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>System Green Test1</title>
-
-    <link rel="preload" as="image" href="../Images/ForestBG6.jpeg">
-    
+    <title>System Green Test1</title>    
     <link rel="stylesheet" href="Styles/common.css">
     <link rel="stylesheet" href="Styles/navigation-wrapper.css">
     <link rel="stylesheet" href="Styles/summary.css">
@@ -14,6 +11,16 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&family=Open+Sans&family=Oswald&family=PT+Sans&family=Parisienne&family=Playfair+Display&family=Quattrocento&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+
+    <script>
+        document.body.classList.add('js-loading');
+
+        window.addEventListener("load", showPage, false);
+
+        function showPage() {
+            document.body.classList.remove('js-loading');
+        }
+    </script>
 
 </head>
 <body>
