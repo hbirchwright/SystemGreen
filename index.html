@@ -14,13 +14,20 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;1,300&family=Open+Sans&family=Oswald&family=PT+Sans&family=Parisienne&family=Playfair+Display&family=Quattrocento&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
 
+    <script>
+        document.body.classList.add('js-loading');
+
+window.addEventListener("load", showPage);
+
+function showPage() {
+  document.body.classList.remove('js-loading');
+}
+    </script>
 </head>
 <body>
-
-
     <div class="navigation-wrapper">
 
-        <div class="drophead">
+        <div id="onLoad" class="drophead">
             <div class="logo">
                 <img src="Images/Logos/SystemGreenWhiteScale-removebg-preview.png" alt="White-Logo">
                 <h1>System Green</h1>

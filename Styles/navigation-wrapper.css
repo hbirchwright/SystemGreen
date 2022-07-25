@@ -80,7 +80,7 @@
   }
   
 .drophead {  
-    animation: 1s ease-out .8s 1 slideInFromTop backwards;
+  animation: 1s ease-out .8s 1 slideInFromTop backwards;
 }
 
 /* Head Text */
