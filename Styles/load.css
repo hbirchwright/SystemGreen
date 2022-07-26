@@ -1,0 +1,32 @@
+.loading-screen {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    position: fixed;
+    background-color: #576c3f;
+    text-align: center;
+    color: white;
+    font-family: 'Taviraj', serif;
+    font-weight: 200;
+    font-size: 1.6em;
+    overflow: hidden;
+    transform: translateY(0%);
+}
+
+.loading-screen.active-animation {
+    animation: 2s ease-out .5s slide-out forwards;
+}
+
+.loading-screen img {
+    width: 300px;
+    margin-bottom: -40px;
+    position: relative;
+}
+
+@keyframes slide-out {
+    100% { transform: translateY(-100%); }
+}
