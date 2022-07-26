@@ -79,7 +79,7 @@
     }
   }
   
-.drophead {  
+.drophead.aaNav {  
   animation: 1s ease-out 2.5s 1 slideInFromTop backwards;
 }
 
@@ -90,7 +90,7 @@
   100% { opacity: 1; }
 }
 
-.navigation-wrapper > .head-text {
+.head-text {
   width: 700px;
   position: absolute;
   bottom: 150px;
@@ -98,7 +98,9 @@
   font-size: 1.7em;
   display: flex;
   font-family: 'Montserrat', sans-serif;
-  animation: fadeIn 1s forwards;
-  animation-delay: 1s;
   opacity: 0;
+}
+
+.head-text.aaHead {
+  animation: 1s linear 2.5s 1 fadeIn forwards;
 }

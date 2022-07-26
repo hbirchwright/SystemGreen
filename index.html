@@ -13,7 +13,13 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Open+Sans&family=PT+Sans&family=Parisienne&family=Playfair+Display&family=Taviraj:wght@200&family=Ubuntu+Condensed&display=swap" rel="stylesheet">
 
-<script>addEventListener("load", function(){document.getElementById('loader').classList.add('active-animation');})</script>
+<script>
+addEventListener("load", function(){document.getElementById('loader').classList.add('active-animation');})
+addEventListener("load", function(){document.getElementById('afterLoadNav').classList.add('aaNav');})
+addEventListener("load", function(){document.getElementById('afterLoadHead').classList.add('aaHead');})
+addEventListener("load", function(){document.getElementById('afterLoadSum').classList.add('aaSum');})
+
+</script>
 
 </head>
 <body>
@@ -25,7 +31,7 @@
 
     <div class="navigation-wrapper">
 
-        <div class="drophead">
+        <div id="afterLoadNav" class="drophead">
             <div class="logo">
                 <img src="Images/Logos/SystemGreenWhiteScale-removebg-preview.png" alt="White-Logo">
                 <h1>System Green</h1>
@@ -50,12 +56,12 @@
             </div>
         </div>
 
-        <div class="head-text">
+        <div id="afterLoadHead" class="head-text">
             <h1>Lorem ipsum dolor sit amet consectetur adipisicing.</h1>
         </div>
     </div>
 
-    <div class="summary-wrapper">
+    <div id="afterLoadSum" class="summary-wrapper">
 
         <div class="sum-head">
             <h1>Lorem ipsum dolor sit amet consectetur.</h1>
