@@ -79,7 +79,7 @@
     }
   }
   
-.drophead.active-animation {  
+.drophead {  
   animation: 1s ease-out 2.5s 1 slideInFromTop backwards;
 }
 
