@@ -69,26 +69,7 @@
     padding-top: 35px;
 }
 
-/* Dropdown Bar */
-@keyframes slideInFromTop {
-    0% {
-      transform: translateY(-100%);
-    }
-    100% {
-      transform: translateY(0);
-    }
-  }
-  
-.drophead.aaNav {  
-  animation: 1s ease-out 2.5s 1 slideInFromTop backwards;
-}
-
 /* Head Text */
-
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
 
 .head-text {
   width: 700px;
@@ -98,9 +79,4 @@
   font-size: 1.7em;
   display: flex;
   font-family: 'Montserrat', sans-serif;
-  opacity: 0;
-}
-
-.head-text.aaHead {
-  animation: 1s linear 2.5s 1 fadeIn forwards;
 }
