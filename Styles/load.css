@@ -18,7 +18,7 @@
 }
 
 .loading-screen.active-animation {
-    animation: 2s ease-out .5s slide-out forwards;
+    animation: 1.3s ease-out .7s slide-out forwards;
 }
 
 .loading-screen img {

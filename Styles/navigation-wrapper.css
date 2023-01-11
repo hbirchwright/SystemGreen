@@ -1,7 +1,7 @@
 /* Main Syle */
 
 .navigation-wrapper {
-    height: 580px;
+    height: 600px;
     width: 100%;
     color: #fcfcfc;
     background-image: url(../Images/ForestBG6.jpeg);
@@ -64,7 +64,7 @@
 
 .navigation-wrapper > .drophead > .navbar {
     color: #fcfcfc;
-    font-family: 'Ubuntu Condensed', sans-serif;
+    font-family: 'Montserrat', sans-serif;
     padding-right: 65px;
     padding-top: 35px;
 }
