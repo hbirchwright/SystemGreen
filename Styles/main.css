@@ -1,10 +1,16 @@
-.summary-wrapper {
+.main {
     display: flex;
     background-color: white;
+    height: 1000px;
+    width: 100%;
+    padding-top: 25px;
+    box-shadow: rgba(0, 0, 0, 0.6) 0px 10px 30px -10px inset;
+}
+
+.summary-wrapper {
+    display: flex;
     height: 400px;
     width: 100%;
-    box-shadow: rgba(0, 0, 0, 0.6) 0px 10px 30px -10px inset;
-    padding-top: 25px;
     font-family: 'Montserrat', sans-serif;
 }
 
